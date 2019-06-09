@@ -11,3 +11,4 @@ FROM scratch
 COPY --from=build /bin/demo /bin/demo
 
 ENTRYPOINT ["bin/demo"]
+
